@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@shopify/shopify-api": "^5.2.0",
     "next": "13.0.0",
+    "node-fetch": "^3.2.10",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.11.8",
     "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0"
+    "eslint-config-next": "13.0.0",
+    "typescript": "^4.7.4"
   }
 }
